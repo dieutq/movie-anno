@@ -1,0 +1,244 @@
+0#Bail Organa
+1#Obi-Wan Kenobi
+2#Anakin Skywalker
+3#Padme
+4#Count Dooku
+5#Mace Windu
+6#Yoda
+7#Palpatine
+9#Jar Jar Binks
+0#Bail Organa
+1#Obi-Wan Kenobi
+2#Anakin Skywalker
+3#Padme
+4#Count Dooku
+5#Mace Windu
+6#Yoda
+7#Palpatine
+9#Jar Jar Binks
+0#Bail Organa
+1#Obi-Wan Kenobi
+2#Anakin Skywalker
+3#Padme
+4#Count Dooku
+5#Mace Windu
+6#Yoda
+7#Palpatine
+8#Limi Skywalker
+9#Jar Jar Binks
+0#Bail Organa
+1#Obi-Wan Kenobi
+2#Anakin Skywalker
+3#Padme
+4#Count Dooku
+5#Mace Windu
+6#Yoda
+7#Palpatine
+8#Limi Skywalker
+9#Jar Jar Binks
+0#Bail Organa
+1#Obi-Wan Kenobi
+2#Anakin Skywalker
+3#Padme
+4#Count Dooku
+5#Mace Windu
+6#Yoda
+7#Palpatine
+8#Limi Skywalker
+9#Jar Jar Binks
+0#Bail Organa
+1#Obi-Wan Kenobi
+2#Anakin Skywalker
+3#Padme
+4#Count Dooku
+5#Mace Windu
+6#Yoda
+7#Palpatine
+8#Limi Skywalker
+9#Jar Jar Binks
+0#Bail Organa
+1#Obi-Wan Kenobi
+2#Anakin Skywalker
+3#Padme
+4#Count Dooku
+5#Mace Windu
+6#Yoda
+7#Palpatine
+8#Limi Skywalker
+9#Jar Jar Binks
+0#Bail Organa
+1#Obi-Wan Kenobi
+2#Anakin Skywalker
+3#Padme
+4#Count Dooku
+5#Mace Windu
+6#Yoda
+7#Palpatine
+8#Limi Skywalker
+9#Jar Jar Binks
+0#Bail Organa
+1#Obi-Wan Kenobi
+2#Anakin Skywalker
+3#Padme
+4#Count Dooku
+5#Mace Windu
+6#Yoda
+7#Palpatine
+8#Limi Skywalker
+9#Jar Jar Binks
+0#Ki-Adi-Mundi
+1#Obi-Wan Kenobi
+2#Padme
+3#Anakin Skywalker
+4#Supreme Chancellor Palpatine
+5#Mace Windu
+6#Senator Bail Organa
+7#Yoda
+8#C-3PO
+9#Count Dooku
+a#R2-D3
+0#Ben 'Obi-Wan' Kenobi
+1#Luke Skywalker
+2#Han Solo
+3#Princess Leia
+4#Lando Calrissian
+5#C-3PO
+6#Chewbacca
+7#The Emperor
+8#Yoda
+9#Darth Vader
+a#R2-D2
+b#Anakin Skywalker
+c#Jabba du Hutt
+0#Uncle Owen
+1#Luke Skywalker
+2#Han Solo
+3#Princess Leia Organa
+4#Grand Moff Tarkin
+5#Ben Obi-Wan Kenobi
+6#C-3PO
+7#R2-D2
+8#Chewbacca
+9#Darth Vader
+a#Aunt Beru
+0#Uncle Owen
+1#Luke Skywalker
+2#Han Solo
+3#Princess Leia Organa
+4#Grand Moff Tarkin
+5#Ben Obi-Wan Kenobi
+6#C-3PO
+7#R2-D2
+8#Chewbacca
+9#Darth Vader
+a#Aunt Beru
+0#Jar Jar Binks
+1#Qui-Gon Jinn
+2#Obi-Wan Kenobi
+3#Queen Amidala
+4#Padme
+5#Anakin Skywalker
+6#Senator Palpatine
+7#Shmi Skywalker
+8#Sio Bibble
+9#Captain Panaka
+0#Jar Jar Binks
+1#Qui-Gon Jinn
+2#Obi-Wan Kenobi
+3#Queen Amidala
+4#Padme
+5#Anakin Skywalker
+6#Senator Palpatine
+7#Shmi Skywalker
+8#Sio Bibble
+9#Captain Panaka
+0#Jar Jar Binks
+1#Qui-Gon Jinn
+2#Obi-Wan Kenobi
+3#Queen Amidala
+4#Padme
+5#Anakin Skywalker
+6#Senator Palpatine
+7#Shmi Skywalker
+8#Sio Bibble
+9#Captain Panaka
+0#Jar Jar Binks
+1#Qui-Gon Jinn
+2#Obi-Wan Kenobi
+3#Queen Amidala
+4#Padme
+5#Anakin Skywalker
+6#Senator Palpatine
+7#Shmi Skywalker
+8#Sio Bibble
+9#Captain Panaka
+0#Jar Jar Binks
+1#Qui-Gon Jinn
+2#Obi-Wan Kenobi
+3#Queen Amidala
+4#Padme
+5#Anakin Skywalker
+6#Senator Palpatine
+7#Shmi Skywalker
+8#Sio Bibble
+9#Captain Panaka
+0#Jar Jar Binks
+1#Qui-Gon Jinn
+2#Obi-Wan Kenobi
+3#Queen Amidala
+4#Padme
+5#Anakin Skywalker
+6#Senator Palpatine
+7#Shmi Skywalker
+8#Sio Bibble
+9#Captain Panaka
+0#Jar Jar Binks
+1#Qui-Gon Jinn
+2#Obi-Wan Kenobi
+3#Queen Amidala
+4#Padme
+5#Anakin Skywalker
+6#Senator Palpatine
+7#Shmi Skywalker
+8#Sio Bibble
+9#Captain Panaka
+0#Bail Organa
+1#Obi-Wan Kenobi
+2#Anakin Skywalker
+3#Padme
+4#Count Dooku
+5#Mace Windu
+6#Yoda
+7#Palpatine
+8#Limi Skywalker
+9#Jar Jar Binks
+0#Jar Jar Binks
+1#Qui-Gon Jinn
+2#Obi-Wan Kenobi
+3#Queen Amidala
+4#Padme
+5#Anakin Skywalker
+6#Senator Palpatine
+7#Shmi Skywalker
+8#Sio Bibble
+9#Captain Panaka
+0#Jar Jar Binks
+1#Qui-Gon Jinn
+2#Obi-Wan Kenobi
+3#Queen Amidala
+4#Padme
+5#Anakin Skywalker
+6#Senator Palpatine
+7#Shmi Skywalker
+8#Sio Bibble
+9#Captain Panaka
+0#Jar Jar Binks
+1#Qui-Gon Jinn
+2#Obi-Wan Kenobi
+3#Queen Amidala
+4#Padme
+5#Anakin Skywalker
+6#Senator Palpatine
+7#Shmi Skywalker
+8#Sio Bibble
+9#Captain Panaka

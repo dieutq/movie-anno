@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2014-10-06">
+    <creator>Gephi 0.8.1</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="eccentricity" title="Eccentricity" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="closnesscentrality" title="Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1" label="Jar Jar Blinks">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.046296296296296294"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-417.97388" y="-18.795376" z="0.0"></viz:position>
+      </node>
+      <node id="2" label="Qui Gon Jinn">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.046296296296296294"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-290.10742" y="295.82047" z="0.0"></viz:position>
+      </node>
+      <node id="3" label="Obi Wan Kenobi">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8999999999999999"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.009259259259259259"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="124.82711" y="-37.283123" z="0.0"></viz:position>
+        <viz:color r="102" g="121" b="89"></viz:color>
+      </node>
+      <node id="4" label="Queen Amidala">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8999999999999999"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.009259259259259259"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="1.8109559" y="-391.71088" z="0.0"></viz:position>
+        <viz:color r="102" g="121" b="89"></viz:color>
+      </node>
+      <node id="5" label="Padme">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.046296296296296294"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="290.34766" y="-295.64227" z="0.0"></viz:position>
+      </node>
+      <node id="6" label="Anakin Skywaker">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8999999999999999"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.027777777777777776"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-2.360887" y="391.37085" z="0.0"></viz:position>
+        <viz:color r="102" g="121" b="89"></viz:color>
+      </node>
+      <node id="7" label="Senator Palpatine">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8181818181818181"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-124.54902" y="36.22512" z="0.0"></viz:position>
+        <viz:color r="140" g="140" b="140"></viz:color>
+      </node>
+      <node id="8" label="Shmi Skywalker">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6428571428571428"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="419.2066" y="20.179914" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="9" label="Sio Bibble">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.75"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="266.1022" y="292.4847" z="0.0"></viz:position>
+        <viz:color r="178" g="178" b="178"></viz:color>
+      </node>
+      <node id="10" label="Captain Panaka">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8999999999999999"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.009259259259259259"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-267.30328" y="-292.64954" z="0.0"></viz:position>
+        <viz:color r="102" g="121" b="89"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="1" target="2" weight="0.699">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="1" target="3" weight="0.36570552">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="1" target="4" weight="0.1447">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="1" target="5" weight="0.3596">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="1" target="6" weight="0.2149">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="1" target="7" weight="0.04625">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="1" target="8" weight="0.1076">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="1" target="9" weight="0.01125">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="1" target="10" weight="0.1285">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="2" target="3">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="2" target="4" weight="0.1662">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="2" target="5" weight="0.4309">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="2" target="6" weight="0.5747">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="2" target="7" weight="0.0131">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="2" target="8" weight="0.107">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="2" target="9" weight="0.0193">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="2" target="10" weight="0.1914">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="3" target="4" weight="0.163">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="3" target="5" weight="0.118">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="3" target="6" weight="0.218">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="3" target="7" weight="0.054">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="3" target="9" weight="0.0724">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="3" target="10" weight="0.1836">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="4" target="5" weight="0.2793">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="4" target="6" weight="0.111">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="4" target="7" weight="0.208">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="4" target="9" weight="0.0724">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="4" target="10" weight="0.247">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="5" target="6" weight="0.4067">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="5" target="7" weight="0.0471">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="5" target="8" weight="0.1217">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="5" target="9" weight="0.0495">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="5" target="10" weight="0.3159">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="6" target="7" weight="0.0783">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="6" target="8" weight="0.257">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="6" target="10" weight="0.043">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="7" target="10" weight="0.03">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="9" target="10" weight="0.0481">
+        <attvalues></attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

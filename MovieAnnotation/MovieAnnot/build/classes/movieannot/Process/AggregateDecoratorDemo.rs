@@ -1,0 +1,3 @@
+movieannot.Process.AggregateDecoratorDemo
+movieannot.Process.LabelLayout2
+movieannot.Process.AggregateDragControl3
