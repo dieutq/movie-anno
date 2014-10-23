@@ -90,10 +90,9 @@ public class GraphBuilder {
         distance.setDirected(false);
         distance.execute(graphModel, attributeModel);
 
-        AttributeColumn col = attributeModel.getNodeTable().getColumn(GraphDistance.BETWEENNESS);
+        AttributeColumn col = attributeModel.getNodeTable().getColumn(GraphDistance.CLOSENESS);
         for (Node n : undirectedGraph.getNodes()) {
-            Double centrality = (Double) n.getNodeData().getAttributes().getValue(col.getIndex());
-            System.out.println(centrality.toString());
+            Double centrality = (Double) n.getNodeData().getAttributes().getValue(col.getIndex());         
         }
 
         //Layout 
