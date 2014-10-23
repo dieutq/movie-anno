@@ -261,3 +261,23 @@ a#Aunt Beru
 7#Shmi Skywalker
 8#Sio Bibble
 9#Captain Panaka
+0#Jar Jar Binks
+1#Qui-Gon Jinn
+2#Obi-Wan Kenobi
+3#Queen Amidala
+4#Padme
+5#Anakin Skywalker
+6#Senator Palpatine
+7#Shmi Skywalker
+8#Sio Bibble
+9#Captain Panaka
+0#Jar Jar Binks
+1#Qui-Gon Jinn
+2#Obi-Wan Kenobi
+3#Queen Amidala
+4#Padme
+5#Anakin Skywalker
+6#Senator Palpatine
+7#Shmi Skywalker
+8#Sio Bibble
+9#Captain Panaka
