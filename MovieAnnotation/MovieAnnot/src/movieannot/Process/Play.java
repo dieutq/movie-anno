@@ -88,7 +88,7 @@ import uk.co.caprica.vlcj.player.embedded.EmbeddedMediaPlayer;
 import uk.co.caprica.vlcj.runtime.RuntimeUtil;
 import com.csvreader.CsvReader;
 import com.csvreader.CsvWriter;
-import movieannot.Process.PreviewJFrame;
+
 
 public class Play extends javax.swing.JFrame implements KeyListener, MouseListener {
 
@@ -5907,14 +5907,14 @@ public class Play extends javax.swing.JFrame implements KeyListener, MouseListen
             //model.addElement((String) ListCharacter.getModel().getElementAt(i));
             NodeGraph.add((String) ListCharacter.getModel().getElementAt(i));
         }
-        AggregateDecoratorDemo ex;
-        ex = new AggregateDecoratorDemo(NodeGraph, relation);
+        //AggregateDecoratorDemo ex;
+        //ex = new AggregateDecoratorDemo(NodeGraph, relation);
         jPanel3.setSize(500, 500);
-        jPanel3.add(ex);
+        //jPanel3.add(ex);
         jPanel3.validate();
         jPanel3.repaint();
         SetFocus();
-        ex.removeAll();
+        //ex.removeAll();
     }
 
     /**
