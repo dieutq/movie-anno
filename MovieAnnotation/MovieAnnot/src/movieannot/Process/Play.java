@@ -955,6 +955,8 @@ public class Play extends javax.swing.JFrame implements KeyListener, MouseListen
         InitKeyboard();
         appearedInit();
         InitCharacterData();
+
+        //CreateGraphGP();        
         jLayeredPane1.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseMoved(MouseEvent e) {
@@ -3334,13 +3336,53 @@ public class Play extends javax.swing.JFrame implements KeyListener, MouseListen
             CalculateRelation();
             BasicModel.getInstance().CopyMatrix(Relation, cpRelation);
             //for (int i )
-            
-            
-            CreateGephiGraph(); //Gephi
-            //RefreshGraph(Relation);//weight// Prefuse
-            
+
             occurtime = new int[20][20];
+            float[][] rl = new float[20][20];
             calculatecoocur();
+
+            //Nomalize Co-Occurrent time
+            int max = occurtime[0][0];
+
+            for (int i = 0; i < occurtime.length; i++) {
+                for (int j = 0; j < occurtime.length; j++) {
+                    if (occurtime[i][j] > max) {
+                        max = occurtime[i][j];
+                    }
+                }
+            }
+            float[][] rlRl = new float[20][20];
+            for (int i = 0; i < occurtime.length; i++) {
+                for (int j = 0; j < occurtime.length; j++) {
+                    rl[i][j] = (float) occurtime[i][j] / max;
+                }
+            }
+            //CreateGephiGraph(); //Gephi
+            //Nomalize List of Character
+            List<String> lstCharacter = new ArrayList<>();
+            mod = (DefaultListModel) ListCharacter.getModel();
+            if (mod.getSize() < 10) {
+                for (int i = 0; i < mod.getSize(); i++) {
+                    arc1 = Arrays.asList(mod.get(i).toString().split("#"));
+                    lstCharacter.add(arc1.get(1));
+                }
+            }
+            if (mod.getSize() >= 10) {
+                for (int i = 1; i <= 9; i++) {
+                    arc1 = Arrays.asList(mod.get(i).toString().split("#"));
+                    lstCharacter.add(arc1.get(1));
+                }
+                arc1 = Arrays.asList(mod.get(0).toString().split("#"));
+                lstCharacter.add(arc1.get(1));
+                for (int i = 10; i < mod.getSize(); i++) {
+                    arc1 = Arrays.asList(mod.get(i).toString().split("#"));
+                    lstCharacter.add(arc1.get(1));
+                }
+            }
+
+            //Create Gephi Graph
+            CreateGraphGP(jPanel3, lstCharacter, rl);
+            //RefreshGraph(Relation);//weight// Prefuse
 
             //How many time
             List<String> counttimes = new ArrayList<>();
@@ -3370,7 +3412,7 @@ public class Play extends javax.swing.JFrame implements KeyListener, MouseListen
             int curtime[][] = new int[20][20];
             for (int i = 0; i < counttimes1.size(); i++) {
                 arc = Arrays.asList(counttimes1.get(i).split("#"));
-                
+
                 //Character 0
                 if (arc.contains("0") && arc.contains("1")) {
                     curtime[0][1] = curtime[0][1] + 1;
@@ -3428,10 +3470,8 @@ public class Play extends javax.swing.JFrame implements KeyListener, MouseListen
                     curtime[0][14] = curtime[0][14] + 1;
                     curtime[14][0] = curtime[0][14];
                 }
-                
-                
+
                 //Character 1
-                                
                 if (arc.contains("1") && arc.contains("2")) {
                     curtime[1][2] = curtime[1][2] + 1;
                     curtime[2][1] = curtime[1][2];
@@ -3488,7 +3528,7 @@ public class Play extends javax.swing.JFrame implements KeyListener, MouseListen
                     curtime[1][14] = curtime[1][14] + 1;
                     curtime[14][1] = curtime[1][14];
                 }
-                
+
                 //Character 2                                 
                 if (arc.contains("2") && arc.contains("3")) {
                     curtime[2][3] = curtime[2][3] + 1;
@@ -3538,9 +3578,8 @@ public class Play extends javax.swing.JFrame implements KeyListener, MouseListen
                     curtime[2][14] = curtime[2][14] + 1;
                     curtime[14][2] = curtime[2][14];
                 }
-                
+
                 //Character 3
-                                 
                 if (arc.contains("3") && arc.contains("4")) {
                     curtime[3][4] = curtime[3][4] + 1;
                     curtime[4][3] = curtime[3][4];
@@ -3585,7 +3624,7 @@ public class Play extends javax.swing.JFrame implements KeyListener, MouseListen
                     curtime[3][14] = curtime[3][14] + 1;
                     curtime[14][3] = curtime[3][14];
                 }
-                
+
                 //Character 4
                 if (arc.contains("4") && arc.contains("5")) {
                     curtime[4][5] = curtime[4][5] + 1;
@@ -3627,8 +3666,7 @@ public class Play extends javax.swing.JFrame implements KeyListener, MouseListen
                     curtime[4][14] = curtime[4][14] + 1;
                     curtime[14][4] = curtime[4][14];
                 }
-                
-                
+
                 //Character 5
                 if (arc.contains("5") && arc.contains("6")) {
                     curtime[5][6] = curtime[5][6] + 1;
@@ -3666,8 +3704,8 @@ public class Play extends javax.swing.JFrame implements KeyListener, MouseListen
                     curtime[5][14] = curtime[5][14] + 1;
                     curtime[14][5] = curtime[5][14];
                 }
-                
-                 //Character 6                
+
+                //Character 6                
                 if (arc.contains("6") && arc.contains("7")) {
                     curtime[6][7] = curtime[6][7] + 1;
                     curtime[7][6] = curtime[6][7];
@@ -3700,8 +3738,8 @@ public class Play extends javax.swing.JFrame implements KeyListener, MouseListen
                     curtime[6][14] = curtime[6][14] + 1;
                     curtime[14][6] = curtime[6][14];
                 }
-                
-                 //Character 7                                
+
+                //Character 7                                
                 if (arc.contains("7") && arc.contains("8")) {
                     curtime[7][8] = curtime[7][8] + 1;
                     curtime[8][7] = curtime[7][8];
@@ -3730,8 +3768,8 @@ public class Play extends javax.swing.JFrame implements KeyListener, MouseListen
                     curtime[7][14] = curtime[7][14] + 1;
                     curtime[14][7] = curtime[7][14];
                 }
-                
-                 //Character 8                                                
+
+                //Character 8                                                
                 if (arc.contains("8") && arc.contains("9")) {
                     curtime[8][9] = curtime[8][9] + 1;
                     curtime[9][8] = curtime[8][9];
@@ -3756,7 +3794,7 @@ public class Play extends javax.swing.JFrame implements KeyListener, MouseListen
                     curtime[8][14] = curtime[8][14] + 1;
                     curtime[14][8] = curtime[8][14];
                 }
-                
+
                 //Character 9                                                               
                 if (arc.contains("9") && arc.contains("10")) {
                     curtime[9][10] = curtime[9][10] + 1;
@@ -3778,7 +3816,7 @@ public class Play extends javax.swing.JFrame implements KeyListener, MouseListen
                     curtime[9][14] = curtime[9][14] + 1;
                     curtime[14][9] = curtime[9][14];
                 }
-                
+
                 //Character 10                                                                              
                 if (arc.contains("10") && arc.contains("11")) {
                     curtime[10][11] = curtime[10][11] + 1;
@@ -3796,7 +3834,7 @@ public class Play extends javax.swing.JFrame implements KeyListener, MouseListen
                     curtime[10][14] = curtime[10][14] + 1;
                     curtime[14][10] = curtime[10][14];
                 }
-                
+
                 //Character 11
                 if (arc.contains("11") && arc.contains("12")) {
                     curtime[11][12] = curtime[11][12] + 1;
@@ -3810,7 +3848,7 @@ public class Play extends javax.swing.JFrame implements KeyListener, MouseListen
                     curtime[11][14] = curtime[11][14] + 1;
                     curtime[14][11] = curtime[11][14];
                 }
-                
+
                 //Character 12
                 if (arc.contains("12") && arc.contains("13")) {
                     curtime[12][13] = curtime[12][13] + 1;
@@ -3820,13 +3858,13 @@ public class Play extends javax.swing.JFrame implements KeyListener, MouseListen
                     curtime[12][14] = curtime[12][14] + 1;
                     curtime[14][12] = curtime[12][14];
                 }
-                
+
                 //Character 13                
                 if (arc.contains("13") && arc.contains("14")) {
                     curtime[13][14] = curtime[13][14] + 1;
                     curtime[14][13] = curtime[13][14];
                 }
-                
+
                 /*
                 
                  if (counttimes1.get(i).length() > 2) {
@@ -3837,10 +3875,10 @@ public class Play extends javax.swing.JFrame implements KeyListener, MouseListen
 
             for (int i = 0; i < curtime.length; i++) {
                 for (int j = 0; j < curtime.length; j++) {
-                   if (curtime[i][j] <10 && curtime[i][j] !=0) {
-                       curtime[i][j] += 10;
-                   }
-                   System.out.print(curtime[i][j] + " ,");         
+                    if (curtime[i][j] < 10 && curtime[i][j] != 0) {
+                        curtime[i][j] += 10;
+                    }
+                    System.out.print(curtime[i][j] + " ,");
                 }
                 System.out.println();
             }
@@ -5412,7 +5450,7 @@ public class Play extends javax.swing.JFrame implements KeyListener, MouseListen
         for (int i = 0; i < occurtime.length; i++) {
             for (int in = 0; in < occurtime.length; in++) {
                 if (occurtime[i][in] < 10) {
-                    occurtime[i][in] = occurtime[i][in]*10;
+                    occurtime[i][in] = occurtime[i][in] * 10;
                 }
                 System.out.print(occurtime[i][in] + "#");
             }
@@ -5838,17 +5876,29 @@ public class Play extends javax.swing.JFrame implements KeyListener, MouseListen
         panel.revalidate();
         panel.repaint();
     }
-    
+
     public void CreateGephiGraph() {
         BuildGephiGraph bd = new BuildGephiGraph();
         bd.script(jPanel3);
-        jPanel3.setSize(500, 500);        
+        jPanel3.setSize(500, 500);
         //jPanel3.add(bd);
         //jPanel3.validate();
         //jPanel3.repaint();
         SetFocus();
-    }           
-    
+    }
+
+    public void CreateGraphGP(JPanel Panel, List<String> lstCharacter, float[][] rlRelationship) {
+        GraphBuilder bd = new GraphBuilder();
+
+        bd.script(Panel, lstCharacter, rlRelationship);
+        jPanel3.repaint();
+        jPanel3.revalidate();
+        //jPanel3.setSize(500, 500);        
+        //jPanel3.add(bd);
+        //jPanel3.validate();
+        //jPanel3.repaint();
+        SetFocus();
+    }
 
     public void RefreshGraph(int[][] relation) {
         jPanel3.removeAll();
